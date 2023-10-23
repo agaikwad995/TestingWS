@@ -5,15 +5,15 @@ public class ArithmeticAssign {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Enter the first integer: ");
-        int i = scan.nextInt();
+		double i = scan.nextDouble();
         System.out.println("Enter the second integer: ");
-        int j = scan.nextInt();
+        double j = scan.nextDouble();
         
-        int sum = i + j;
-        int difference = i - j;
-        int product = i * j;
+        double sum = i + j;
+        double difference = i - j;
+        double product = i * j;
         double average = (double) (i + j) / 2;
-        int distance = Math.abs(i - j);
+        double distance = Math.abs(i - j);
         
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
