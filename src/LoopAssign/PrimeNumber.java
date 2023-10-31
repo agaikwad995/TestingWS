@@ -17,7 +17,7 @@ public static void main(String[] args) {
 		}
 	}
 	
-	if (!flag && number !=1) {
+	if (!flag) {
 		System.out.println("Prime number");
 		}
 	else
